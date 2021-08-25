@@ -1,0 +1,31 @@
+{
+  "name": "bdd_currency_example",
+  "version": "1.0.0",
+  "description": "Zero Bank example for UnderTest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marelynaguilera/bdd_currency_example.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "marelynaguilera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marelynaguilera/bdd_currency_example/issues"
+  },
+  "homepage": "https://github.com/marelynaguilera/bdd_currency_example#readme",
+  "devDependencies": {
+    "@wdio/cli": "^7.10.1",
+    "@wdio/cucumber-framework": "^7.10.1",
+    "@wdio/local-runner": "^7.10.1",
+    "@wdio/spec-reporter": "^7.10.1",
+    "chromedriver": "^92.0.1",
+    "prettier": "^2.3.2",
+    "wdio-chromedriver-service": "^7.2.0"
+  }
+}
